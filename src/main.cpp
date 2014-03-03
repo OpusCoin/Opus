@@ -2576,7 +2576,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
         assert(block.hashMerkleRoot == uint256("0x8acd97632c53f94d63a5cdaf7d8e45346bff4efd10c81541b4578d5c755a297a"));
 
-        assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
+        //assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
 
         // Start new block file
         unsigned int nFile;
